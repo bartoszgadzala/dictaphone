@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="content_description_record">запись</string>
+    <string name="content_description_play">воспроизвести</string>
+    <string name="content_description_pause">пауза</string>
+    <string name="content_description_stop">Стоп</string>
+    <string name="content_description_record_indicator">Диктофон в режиме записи</string>
+    <string name="action_bar_settings_title">Настройки</string>
+    <string name="action_bar_about_title">О программе</string>
+    <string name="notification_recording_title">Диктофон в режиме записи</string>
+    <string name="notification_recording_text">Выберите, чтобы остановить запись</string>
+    <string name="on_finish_text">Запись сохраняется в файл %1$s</string>
+    <string name="on_low_disk_space">Запись остановлена из-за недостаточного места на диске. Свободно только %1$d Кб</string>
+    <string name="navigation_tab_recorder">диктофон</string>
+    <string name="navigation_tab_filelist">Записи</string>
+    <string name="filelist_context_menu_file_delete">Удалить</string>
+    <string name="filelist_context_menu_file_rename">переименовать</string>
+    <string name="filelist_context_menu_file_share">делить</string>
+    <string name="preferences_category_title_recordings">Записи</string>
+    <string name="preferences_option_title_format">формат</string>
+    <string name="preferences_option_title_summary">Определяет формат записи</string>
+    <string name="dialog_rename_recording_positive_button">переименовать</string>
+    <string name="dialog_rename_recording_negative_button">отмена</string>
+    <string name="credits_screen_title">Заслуги</string>
+    <string name="error_no_player_found">плеер не обнаружен</string>
+    <string name="error_external_storage_unavailable">Карта памяти недоступна</string>
+    <string name="error_cannot_create_audio_recorder">Невозможно создать аудио запись, попробуйте еще раз. Если проблема повторится, свяжитесь с поставщиком карты.</string>
+    <string name="error_cannot_create_directory">Невозможно создать каталог %1$s</string>
+    <string name="error_cannot_read_directory">Невозможно прочитать каталог %1$s</string>
+    <string name="error_cannot_delete_recording">Не удается удалить запись %1$s</string>
+    <string name="error_cannot_rename_recording">Невозможно переименовать запись %1$s</string>
+    <string name="error_recording_already_exists">Запись %1$S уже существует</string>
+    <string name="error_storage_full">Недостаточно места на карте памяти!</string>
+    <string name="error_unknown_error">Неизвестная ошибка</string>
+
+    <string-array name="recording_formats_titles">
+        <item>WAV - несжатый, высокое качество</item>
+    </string-array>
+
+</resources>

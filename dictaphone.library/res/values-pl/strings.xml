@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="content_description_record">Nagraj</string>
+    <string name="content_description_play">Odtwórz</string>
+    <string name="content_description_pause">Pauza</string>
+    <string name="content_description_stop">Stop</string>
+    <string name="content_description_record_indicator">Dyktafon w trybie nagrywania</string>
+    <string name="action_bar_settings_title">Ustawienia</string>
+    <string name="action_bar_about_title">O programie</string>
+    <string name="notification_recording_title">Dyktafon w trybie nagrywania</string>
+    <string name="notification_recording_text">Wybierz, aby zakończyć nagrywanie</string>
+    <string name="on_finish_text">Nagranie zapisano do pliku %1$s</string>
+    <string name="on_low_disk_space">Zatrzymywanie nagrywania z powodu małej ilości miejsca na dysku. Pozostało jedynie %1$d kB</string>
+    <string name="navigation_tab_recorder">Dyktafon</string>
+    <string name="navigation_tab_filelist">Nagrania</string>
+    <string name="filelist_context_menu_file_delete">Usuń</string>
+    <string name="filelist_context_menu_file_rename">Zmień nazwę</string>
+    <string name="filelist_context_menu_file_share">Współdziel</string>
+    <string name="preferences_category_title_recordings">Nagrania</string>
+    <string name="preferences_option_title_format">Format</string>
+    <string name="preferences_option_title_summary">Określa format nagrania</string>
+    <string name="dialog_rename_recording_positive_button">Zmień nazwę</string>
+    <string name="dialog_rename_recording_negative_button">Anuluj</string>
+    <string name="credits_screen_title">Zasługi</string>
+    <string name="error_no_player_found">Odtwarzacz niedostępny</string>
+    <string name="error_external_storage_unavailable">Zewnętrzny nośnik danych niedostępny</string>
+    <string name="error_cannot_create_audio_recorder">Nie można ustawić parametrów nagrania na Twoim urządzeniu - spróbuj ponownie, a jeżeli problem dalej występuje skontaktuj się z producentem urządzenia / ROMu</string>
+    <string name="error_cannot_create_directory">Nie można utworzyć katalogu %1$s</string>
+    <string name="error_cannot_read_directory">Nie można odczytać katalogu %1$s</string>
+    <string name="error_cannot_delete_recording">Nie można usunąć nagrania %1$s</string>
+    <string name="error_cannot_rename_recording">Nie można zmienić nazwy nagrania %1$s</string>
+    <string name="error_recording_already_exists">Nagranie %1$s już istnieje</string>
+    <string name="error_storage_full">Brak miejsca na nośniku zewnętrznym</string>
+    <string name="error_unknown_error">Nieznany błąd</string>
+
+    <string-array name="recording_formats_titles">
+        <item>WAV - nieskompresowany, wysoka jakość</item>
+    </string-array>
+
+</resources>

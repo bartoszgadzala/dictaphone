@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file_delete"
+        android:icon="@drawable/ic_delete"
+        android:showAsAction="always"
+        android:title="@string/filelist_context_menu_file_delete">
+    </item>
+    <item
+        android:id="@+id/file_share"
+        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+        android:icon="@drawable/ic_share"
+        android:showAsAction="always"
+        android:title="@string/filelist_context_menu_file_share">
+    </item>
+
+</menu>

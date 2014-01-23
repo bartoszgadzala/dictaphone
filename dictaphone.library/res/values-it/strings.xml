@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="content_description_record">Registra</string>
+    <string name="content_description_play">Riproduci</string>
+    <string name="content_description_pause">Pausa</string>
+    <string name="content_description_stop">Ferma</string>
+    <string name="content_description_record_indicator">Registrazione in corso con Dictaphone</string>
+    <string name="action_bar_settings_title">Impostazioni</string>
+    <string name="action_bar_about_title">Informazioni</string>
+    <string name="notification_recording_title">Dittafono sta registrando</string>
+    <string name="notification_recording_text">Premi per terminare la registrazione</string>
+    <string name="on_finish_text">Registrazione salvata in %1$s</string>
+    <string name="on_low_disk_space">Registrazione interrotta per mancanza di spazio. Sono rimasti %1$d kB liberi.</string>
+    <string name="navigation_tab_recorder">Dittafono</string>
+    <string name="navigation_tab_filelist">Registrazioni</string>
+    <string name="filelist_context_menu_file_delete">Elimina</string>
+    <string name="filelist_context_menu_file_rename">Rinomina</string>
+    <string name="filelist_context_menu_file_share">Condividi</string>
+    <string name="clock_initial">00:00:00</string>
+    <string name="preferences_category_title_recordings">Registrazioni</string>
+    <string name="preferences_option_title_format">Formato</string>
+    <string name="preferences_option_title_summary">Seleziona il formato di registrazione</string>
+    <string name="dialog_rename_recording_positive_button">Rinomina</string>
+    <string name="dialog_rename_recording_negative_button">Annulla</string>
+    <string name="credits_screen_title">Crediti</string>
+    <string name="error_no_player_found">Lettore multimediale esterno non disponibile.</string>
+    <string name="error_external_storage_unavailable">Memoria esterna non disponibile.</string>
+    <string name="error_cannot_create_audio_recorder">Impossibile avviare la registrazione, riprovare nuovamente. Se il problema persiste contattare il produttore del dispositivo o della ROM.</string>
+    <string name="error_cannot_create_directory">Impossibile creare la directory %1$s.</string>
+    <string name="error_cannot_read_directory">Impossibile leggere la directory %1$s.</string>
+    <string name="error_cannot_delete_recording">Impossibile eliminare la registrazione %1$s.</string>
+    <string name="error_cannot_rename_recording">Impossibile rinominare la registrazione %1$s.</string>
+    <string name="error_recording_already_exists">Registrazione %1$s già presente.</string>
+    <string name="error_storage_full">Spazio non disponibile nella memoria esterna.</string>
+    <string name="error_unknown_error">Errore sconosciuto.</string>
+
+    <string-array name="recording_formats_titles">
+        <item>WAV – non compresso, alta qualità</item>
+    </string-array>
+
+</resources>

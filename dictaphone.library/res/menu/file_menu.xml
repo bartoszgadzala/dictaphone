@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/file_rename"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/filelist_context_menu_file_rename">
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding_horizontal"
+        android:paddingRight="@dimen/padding_horizontal"
+        android:text="@string/clock_initial"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_size_recorder_elapsed_time" />
+
+    <ImageView
+        android:id="@+id/iv_redocording_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/text_size_recorder_elapsed_time"
+        android:layout_gravity="bottom"
+        android:contentDescription="@string/content_description_record_indicator"
+        android:paddingRight="@dimen/padding_horizontal"
+        android:src="@drawable/ic_recording_indicator" />
+
+</LinearLayout>

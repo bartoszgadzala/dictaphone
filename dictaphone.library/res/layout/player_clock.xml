@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_elapsed_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding_horizontal"
+        android:paddingRight="@dimen/padding_horizontal"
+        android:text="@string/clock_initial"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_size_player_elapsed_time" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_remaining_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.00"
+            android:gravity="right"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:paddingTop="@dimen/padding_vertical"
+            android:text="@string/clock_initial"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="@dimen/text_size_player_remaining_time" />
+
+        <TextView
+            android:id="@+id/tv_whole_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/padding_vertical"
+            android:paddingRight="@dimen/padding_horizontal"
+            android:text="@string/clock_initial"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="@dimen/text_size_player_whole_time" />
+    </LinearLayout>
+
+</LinearLayout>

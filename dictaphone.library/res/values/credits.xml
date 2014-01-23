@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="credits">
+        <item>Bartosz Gadzała: developer</item>
+        <item>Михаил Кисиль: Russian translation, feedback</item>
+        <item>Luca Vallerini: Italian translation</item>
+        <item>Милош Поповић: Serbian translation</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="recording_formats">
+        <item>WAV</item>
+    </string-array>
+
+</resources>

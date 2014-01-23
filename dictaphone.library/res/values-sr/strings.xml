@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="content_description_record">Сними</string>
+    <string name="content_description_play">Пусти</string>
+    <string name="content_description_pause">Паузирај</string>
+    <string name="content_description_stop">Заустави</string>
+    <string name="content_description_record_indicator">Диктафон снима звук</string>
+    <string name="action_bar_settings_title">Подешавања</string>
+    <string name="action_bar_about_title">О програму</string>
+    <string name="notification_recording_title">Диктафон снима звук</string>
+    <string name="notification_recording_text">Одавде можете прекинути снимање</string>
+    <string name="on_finish_text">Снима је сачуван у %1$s</string>
+    <string name="on_low_disk_space">Снимање је заустављено јер нема довољно места. Преостало је само %1$d kB.</string>
+    <string name="navigation_tab_recorder">Диктафон</string>
+    <string name="navigation_tab_filelist">Снимци</string>
+    <string name="filelist_context_menu_file_delete">Обриши</string>
+    <string name="filelist_context_menu_file_rename">Преименуј</string>
+    <string name="filelist_context_menu_file_share">Подели</string>
+    <string name="preferences_category_title_recordings">Снимци</string>
+    <string name="preferences_option_title_format">Формат</string>
+    <string name="preferences_option_title_summary">Одређује у ком формату се чувају снимци</string>
+    <string name="dialog_rename_recording_positive_button">Преименуј</string>
+    <string name="dialog_rename_recording_negative_button">Обустави</string>
+    <string name="credits_screen_title">Заслуге</string>
+    <string name="error_no_player_found">Не постоји програма за пуштање звук</string>
+    <string name="error_external_storage_unavailable">Није доступна спољна меморије за снимке</string>
+    <string name="error_cannot_create_audio_recorder">Снимање није могуће на ваше уређају. Покушајте поново, а уколико се програм настави контактирајте аутора уређаја или оперативног система</string>
+    <string name="error_cannot_create_directory">Не могу да направим директоријум %1$s</string>
+    <string name="error_cannot_read_directory">Не могу да прочитам директоријум %1$s</string>
+    <string name="error_cannot_delete_recording">Не могу да обришем снимак %1$s</string>
+    <string name="error_cannot_rename_recording">Не могу да преименујем снимак %1$s</string>
+    <string name="error_recording_already_exists">Већ постоји снимак %1$s</string>
+    <string name="error_storage_full">Нема довољно места у спољној меморији</string>
+    <string name="error_unknown_error">Непозната грешка</string>
+
+    <string-array name="recording_formats_titles">
+        <item>WAV – незапаковани снимак, најбољи квалитет</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>pl.bgadzala.android.dictaphone</groupId>
+		<artifactId>dictaphone.parent</artifactId>
+		<version>1.5.0-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<artifactId>dictaphone.free</artifactId>
+	<packaging>apk</packaging>
+	<name>Dictaphone: Free edition</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>dictaphone.library</artifactId>
+			<version>${project.version}</version>
+			<type>apklib</type>
+		</dependency>
+		<dependency>
+			<groupId>com.google.ads</groupId>
+			<artifactId>GoogleAdMobAdsSdk</artifactId>
+			<version>6.4.1</version>
+		</dependency>
+	</dependencies>
+
+</project>

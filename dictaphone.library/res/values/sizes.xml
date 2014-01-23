@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_horizontal">4dp</dimen>
+    <dimen name="padding_vertical">8dp</dimen>
+    <dimen name="text_size_recorder_elapsed_time">60dip</dimen>
+    <dimen name="text_size_player_elapsed_time">50dip</dimen>
+    <dimen name="text_size_player_remaining_time">20dip</dimen>
+    <dimen name="text_size_player_whole_time">20dip</dimen>
+
+</resources>

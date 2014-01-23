@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/preferences_category_title_recordings">
+        <ListPreference android:entries="@array/recording_formats_titles" android:entryValues="@array/recording_formats" android:title="@string/preferences_option_title_format" android:summary="@string/preferences_option_title_summary" android:key="recordings_format"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

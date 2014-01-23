@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="content_description_record">Record</string>
+    <string name="content_description_play">Play</string>
+    <string name="content_description_pause">Pause</string>
+    <string name="content_description_stop">Stop</string>
+    <string name="content_description_record_indicator">Dictaphone in recording mode</string>
+    <string name="action_bar_settings_title">Settings</string>
+    <string name="action_bar_about_title">About</string>
+    <string name="notification_recording_title">Dictaphone in recording mode</string>
+    <string name="notification_recording_text">Select to finish recording</string>
+    <string name="on_finish_text">Recording saved to file %1$s</string>
+    <string name="on_low_disk_space">Stopping recording because of low disk space. Only %1$d kB left</string>
+    <string name="navigation_tab_recorder">Dictaphone</string>
+    <string name="navigation_tab_filelist">Recordings</string>
+    <string name="filelist_context_menu_file_delete">Delete</string>
+    <string name="filelist_context_menu_file_rename">Rename</string>
+    <string name="filelist_context_menu_file_share">Share</string>
+    <string name="clock_initial">00:00:00</string>
+    <string name="preferences_category_title_recordings">Recordings</string>
+    <string name="preferences_option_title_format">Format</string>
+    <string name="preferences_option_title_summary">Specifies the recording format</string>
+    <string name="dialog_rename_recording_positive_button">Rename</string>
+    <string name="dialog_rename_recording_negative_button">Cancel</string>
+    <string name="credits_screen_title">Credits</string>
+    <string name="error_no_player_found">Player unavailable</string>
+    <string name="error_external_storage_unavailable">External storage unavailable</string>
+    <string name="error_cannot_create_audio_recorder">Cannot create audio recorder on your device- try again and if problem still exists contact with device / ROM producer</string>
+    <string name="error_cannot_create_directory">Cannot create directory %1$s</string>
+    <string name="error_cannot_read_directory">Cannot read directory %1$s</string>
+    <string name="error_cannot_delete_recording">Cannot delete recording %1$s</string>
+    <string name="error_cannot_rename_recording">Cannot rename recording %1$s</string>
+    <string name="error_recording_already_exists">Recording %1$s already exists</string>
+    <string name="error_storage_full">No space left on external storage</string>
+    <string name="error_unknown_error">Unknown error</string>
+
+    <string-array name="recording_formats_titles">
+        <item>WAV - uncompressed, high quality</item>
+    </string-array>
+
+</resources>

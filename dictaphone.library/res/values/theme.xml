@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="Theme.Dictaphone" parent="@style/Holo.Theme"/>
+
+    <style name="Theme.Dictaphone.Credits" />
+
+    <style name="Theme.Dictaphone.Credits.Title">
+        <item name="android:background">#444</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+</resources>
